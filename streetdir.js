@@ -37,3 +37,6 @@ function finddir(a, b) {
     gc = SDGeocode.SG;
     geocode.requestData();
 }
+
+//This links to routes from one lat and long to another. However due to cors policy accesing the data proved to be diffcult
+var service = new SDServiceXml("https://www.streetdirectory.com/api/?mode=journey&output=xml&country=sg&q=103.82915135175699,1.307363769270172%20to%20103.84643694497719,1.2990493119206423&methods=driving&info=1&date=06/20/2011&time=02:38%20PM", map);
