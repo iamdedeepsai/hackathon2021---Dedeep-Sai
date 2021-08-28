@@ -14,6 +14,11 @@
         <title>Hackathon</title>
     </head>
 
+    <center>
+        <header id="header">
+            <h1>SGreener</h1>
+        </header>
+    </center>
     <body onload="initialize()">
         <div id="map_canvas"></div>
         <form>
@@ -21,7 +26,7 @@
             <datalist id="places-start"></datalist>
             <input class="" type="text" onkeypress="onkey('#end')" list="places-end" id="end" placeholder="Enter destination">
             <datalist id="places-end"></datalist>
-            <button class="button" id="go" onclick="finddir()">Go!</button>
         </form>
+        <button>Go!</button>
     </body>
 </html>
