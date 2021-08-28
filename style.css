@@ -24,6 +24,7 @@ input[type="text"] {
     left: 10em;
     border-radius: 2px;
     border: rgba(252,70,107,1);
+    width : 30%;
 }
 
 #end {
@@ -35,10 +36,36 @@ input[type="text"] {
     right: 10em;
     border-radius: 2px;
     border: rgba(109,206,255,1);
+    width: 30%;
 }
 
-html {
+body {
     margin: 0px;
     padding: 0px;
     background: linear-gradient(270deg, rgba(109,206,255,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+header {
+    position: relative;
+    top: -1.4em;
+    height: 5.5em;
+    background-color:white;
+}
+
+h1 {
+    position: relative;
+    top: 0.5em;
+}
+
+button {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    right: 10em;
+    border-radius: 2px;
+    border: rgba(109,206,255,1);
+    width: 30%;
 }
