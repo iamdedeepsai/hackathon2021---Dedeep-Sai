@@ -1,0 +1,44 @@
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+input[type="text"] {
+    font-size: 1em;
+}
+
+#start {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 10em;
+    border-radius: 2px;
+    border: rgba(252,70,107,1);
+}
+
+#end {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 10em;
+    border-radius: 2px;
+    border: rgba(109,206,255,1);
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(270deg, rgba(109,206,255,1) 0%, rgba(252,70,107,1) 100%);
+}
